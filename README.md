@@ -33,7 +33,7 @@ protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 {
     optionsBuilder.UseSqlite("Data Source=library.db");
 }
-
+```
 ## Project Structure
 LibraryManagementSystem/
     bin/
